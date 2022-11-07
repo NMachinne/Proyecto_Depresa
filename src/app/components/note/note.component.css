@@ -1,0 +1,23 @@
+.table {
+    font-size: 16px;
+    background-color:#ADD8E6;
+    width: 75%;
+    margin-left: 12%;
+
+}
+
+.ttl {
+    width: 7%;
+}
+
+.desc {
+    width: 8%;
+}
+
+.del {
+    width: 2%;
+}
+
+.edit {
+    width: 2%;
+}

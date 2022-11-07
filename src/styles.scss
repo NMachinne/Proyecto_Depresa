@@ -1,0 +1,126 @@
+@import "@angular/material/theming";
+@include mat-core();
+
+.light-mode {
+  .form-control {
+    background-color: #ADD8E6 !important;
+  }
+
+  background-color: #8AC7DB;
+
+  nav{
+    background-color: #ADD8E6 !important;
+    .nav-item {
+      background-color:  #ADD8E6 !important;
+      .dropdown-menu {
+        background-color:  #ADD8E6 !important;
+        .dropdown-item {
+          background-color:  #ADD8E6 !important;
+        }
+        li {
+          background-color:  #ADD8E6 !important;
+        }
+      }
+    }
+  }
+  .modal {
+    .modal-dialog {
+      background-color: #ADD8E6 !important;
+      .modal-content {
+        background-color: #ADD8E6 !important;
+        .modal-header {
+          background-color: #ADD8E6 !important;
+        }
+      }
+    }
+   
+  }
+}
+
+.dark-mode {
+  .div1 {
+    background-color: rgb(124, 116, 116) !important;
+  }
+
+  .div3 {
+    background-color: rgb(124, 116, 116) !important;
+  }
+
+  .form-control {
+    background-color: #333 !important;
+    color: white !important;
+    &input:focus {
+      color: white !important;
+    }
+    &input::placeholder {
+      color: white !important;
+    }
+  }
+
+  background-color: #333 !important;
+  color: whitesmoke;
+
+  li{
+    background-color: #333;
+    color: white;
+  }
+  nav{
+    background-color: rgb(124, 116, 116) !important;
+    .navbar-brand{
+      color:white;
+    }
+
+      .nav-link{
+        color:white !important;
+        background-color:  rgb(124, 116, 116) !important;
+      }
+      .nav-item {
+        background-color:  rgb(124, 116, 116) !important;
+        .dropdown-menu {
+          background-color:  rgb(124, 116, 116) !important;
+          .dropdown-item {
+            background-color:  rgb(124, 116, 116) !important;
+            color:white;
+          }
+          li {
+            background-color:  rgb(124, 116, 116) !important;
+          }
+        }
+      }
+    .navbar-toggler-icon{
+      filter: invert(99%) sepia(1%) saturate(4214%) hue-rotate(223deg) brightness(118%) contrast(100%);
+    }
+  }
+
+  .modal {
+    .modal-dialog {
+      background-color:  rgb(124, 116, 116) !important;
+      .modal-content {
+        background-color: rgb(124, 116, 116) !important;
+        .modal-header {
+          background-color:  rgb(124, 116, 116) !important;
+        }
+      }
+    }
+   
+  }
+}
+
+.dar {
+  margin-left: 95%;
+}
+
+#credential_picker_container {
+  display: none !important;
+}/* You can add global styles to this file, and also import other style files */
+asl-google-signin-button div{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align:center;
+}
+
+
+#credential_picker_iframe {
+  display: none !important;
+}
