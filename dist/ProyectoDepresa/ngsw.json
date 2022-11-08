@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1667931001976,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/794.c4f2ded6bc84d12d.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.88353a896e81270e.js",
+        "/manifest.webmanifest",
+        "/polyfills.a8cc944b97892d68.js",
+        "/runtime.b658ff86a115895c.js",
+        "/scripts.1e5b737ef6ac3687.js",
+        "/styles.a6c904a37acb4ae4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/Linkedin.png",
+        "/assets/images/git.png",
+        "/assets/images/logo.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/794.c4f2ded6bc84d12d.js": "b7a71c28a06ea393b577f3391857a477d54510b4",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/Linkedin.png": "5b5a8b93a5fbb42e501044357406a9b5bde9dcb1",
+    "/assets/images/git.png": "beb66a738f4f315ed014efacb0723ecfc116611c",
+    "/assets/images/logo.jpg": "748f2aad9248dbdc97fa5f5f9a1d9de2819dd402",
+    "/favicon.ico": "721e2124c3b884b9e3412144f919e42af80bb12d",
+    "/index.html": "b53cde273d3c028b97f3e9d00b947101153b5151",
+    "/main.88353a896e81270e.js": "4cb342b17c5795fb019ac9037fa6d547576a46c4",
+    "/manifest.webmanifest": "1d92cddabc1f333694371dba415791847a364d96",
+    "/polyfills.a8cc944b97892d68.js": "803d0fa61f6d725ca986e9e40238475a0b7d1773",
+    "/runtime.b658ff86a115895c.js": "f946ffaf94ddebad680b5630d3e71808524f954e",
+    "/scripts.1e5b737ef6ac3687.js": "b4833e6efd6255993c96ec008e8360db1882f7c8",
+    "/styles.a6c904a37acb4ae4.css": "219821913cf4e7fbebaf23ef03f7d9189d1fefe9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
