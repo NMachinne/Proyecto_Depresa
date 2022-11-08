@@ -35,7 +35,7 @@ import { TranslateLoader,TranslateModule, TranslateService } from '@ngx-translat
     NavbarComponent,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule,
+    AngularFirestoreModule.enablePersistence(),
     HttpClientModule,
     TranslateModule.forRoot({
     }),

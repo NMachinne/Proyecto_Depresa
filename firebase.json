@@ -1,10 +1,6 @@
 {
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
-  },
   "hosting": {
-    "public": "dist/ProyectoDepresa",
+    "public": "dist/proyectodepresa",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -16,5 +12,8 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }
