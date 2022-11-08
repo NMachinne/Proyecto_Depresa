@@ -9,7 +9,7 @@
           <a class="nav-link active" aria-current="page" routerLink="/">Inicio</a>
           <a class="nav-link" routerLink="/new">Nueva </a>
           <a class="nav-link" routerLink="/about">Acerca de</a>
-          <a id = "theme-white-ctheme" class="nav-link" style="cursor:pointer"   >Cambiar tema</a>
+          <a id = "theme-white-ctheme" class="nav-link" style="cursor:pointer" (click)="ctheme()">Cambiar tema</a>
           <li class="nav-item dropdown" *ngIf="this.loginS.user">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Cuenta

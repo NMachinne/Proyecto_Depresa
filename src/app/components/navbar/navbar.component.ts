@@ -24,5 +24,15 @@ export class NavbarComponent implements OnInit {
     this.loginS.signOut();
   }
 
-
+  bool: boolean = false;
+  public ctheme(){
+    var cbody =document.body;
+    if(this.bool){
+        cbody.className ="light-mode";
+        this.bool = false;
+    } else{
+        cbody.className ="dark-mode";
+      this.bool = true;
+    }
+  }
 } 

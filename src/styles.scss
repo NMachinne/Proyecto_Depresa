@@ -20,8 +20,20 @@
         li {
           background-color:  #ADD8E6 !important;
         }
+        
       }
     }
+  }
+  .btn-primary {
+        background-color: #21b5e2 !important; 
+        font-weight: bold;
+        color : black;
+  }
+  .btn-secondary {
+    background-color: orangered !important;  
+  }
+  .btn-terciary {
+    background-color:  greenyellow!important;  
   }
   .modal {
     .modal-dialog {
@@ -39,11 +51,11 @@
 
 .dark-mode {
   .div1 {
-    background-color: rgb(124, 116, 116) !important;
+    background-color: #464242 !important;
   }
 
   .div3 {
-    background-color: rgb(124, 116, 116) !important;
+    background-color: #464242 !important;
   }
 
   .form-control {
@@ -65,25 +77,28 @@
     color: white;
   }
   nav{
-    background-color: rgb(124, 116, 116) !important;
+    background-color: #464242 !important;
     .navbar-brand{
       color:white;
     }
 
       .nav-link{
         color:white !important;
-        background-color:  rgb(124, 116, 116) !important;
+        background-color:  #464242 !important;
       }
       .nav-item {
-        background-color:  rgb(124, 116, 116) !important;
+        background-color:  #464242 !important;
         .dropdown-menu {
-          background-color:  rgb(124, 116, 116) !important;
+          background-color:  #464242 !important;
           .dropdown-item {
-            background-color:  rgb(124, 116, 116) !important;
+            background-color:  #464242 !important;
             color:white;
           }
           li {
-            background-color:  rgb(124, 116, 116) !important;
+            background-color:  #464242 !important;
+          }
+          ul {
+            background-color:  #464242 !important;
           }
         }
       }
@@ -92,13 +107,26 @@
     }
   }
 
+  .btn-primary {
+    background-color: black !important; 
+    font-weight: bold;
+    color : white;
+}
+.btn-secondary {
+background-color: orangered !important;  
+}
+.btn-terciary {
+background-color:  greenyellow!important;  
+}
+
+  
   .modal {
     .modal-dialog {
-      background-color:  rgb(124, 116, 116) !important;
+      background-color:  #464242 !important;
       .modal-content {
-        background-color: rgb(124, 116, 116) !important;
+        background-color: #464242 !important;
         .modal-header {
-          background-color:  rgb(124, 116, 116) !important;
+          background-color:  #464242 !important;
         }
       }
     }
